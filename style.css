@@ -1,0 +1,118 @@
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+nav {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    padding: 25px; 
+    z-index: 1; 
+    background: #edebe8;
+    width: 100%;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#nav-list {
+    text-align: center; 
+    margin-top: 5px;
+}
+
+
+a, a:focus, a:active, a:visited, .fancy {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 30px 10px;
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+a:hover {
+    color: 96a381;
+}
+
+#spacer-top {
+    min-height: 100px; 
+}
+
+#spacer-bottom {
+    min-height: 200px; 
+}
+
+.content {
+    letter-spacing: 1px;
+    padding: 50px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.even {
+    background-color: white;
+    
+}
+
+.odd {
+    background-color: rgba(0, 0, 0, 0.05)
+}
+
+.odd-again {
+    background-color: #94a499;
+}
+
+#footer {
+    background-color: #edebe8;
+    padding: 2em 0;
+    clear: both;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /* width: 100%; */
+    text-align: center;
+}
+
+.frog {
+    margin-left: -50px;
+    color:#96a381;
+}
+
+.statement {
+    font-size:larger;
+}
+
+s.fancy {
+    text-decoration: line-through;
+}
+
+img.web {
+    max-width: 80%;
+    background-color: #edebe8;
+    padding: 10px;
+}
+
+img.sewing {
+    width: 200px;
+    height: 200px;
+    /* max-width: 200px; */
+    object-fit: contain;
+    display: inline;
+    padding: 5px;
+    background-color: #e3e6de;
+}
+
+img.dota {
+    width: 430px;
+    height: 96px;
+    display: inline-block;
+    padding: 3px;
+    background-color: #e3e6de;
+}
+
+img.moon {
+    padding: 2px;
+}
