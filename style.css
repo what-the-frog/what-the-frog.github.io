@@ -7,7 +7,7 @@ nav {
     top: 0; 
     left: 0; 
     padding: 25px; 
-    z-index: 1; 
+    z-index: 2; 
     background: #edebe8;
     width: 100%;
 }
@@ -74,6 +74,7 @@ a:hover {
     left: 0;
     /* width: 100%; */
     text-align: center;
+    z-index: 1;
 }
 
 .frog {
@@ -115,4 +116,14 @@ img.dota {
 
 img.moon {
     padding: 2px;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: large;
+    color: #94a499;   
+}
+
+.green {
+    color: #96a381;
 }
