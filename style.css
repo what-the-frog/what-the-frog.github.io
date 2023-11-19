@@ -127,3 +127,18 @@ h2 {
 .green {
     color: #96a381;
 }
+
+img.web {
+    width: 200px;
+    height: 125px;
+    /* display: inline-block; */
+    /* padding: 3px; */
+}
+
+img.web:hover {
+    opacity: calc(80%);
+}
+
+img::after {
+    content: "blabla";
+}
